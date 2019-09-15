@@ -1,0 +1,9 @@
+cd http://localhost:3010/api/v1/auths/identity/register
+--form
+email=admin@example.com
+first_name=name
+last_name=name
+username=adm
+password=12345678
+password_confirmation=12345678
+post

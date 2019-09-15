@@ -23,5 +23,6 @@ http-prompt
 ```
 
 If you online want to authenticate you can use `source authenticate`.
+If you need to register you can use `source register`
 
 For further information see the manual of [http-prompt](http://http-prompt.com/) and [http-pie](https://httpie.org/).
