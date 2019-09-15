@@ -1,0 +1,5 @@
+rm *
+source authenticate
+--form
+cd http://localhost:3001/api/v1/submissions
+submission[file]@./resources/submission.jar

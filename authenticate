@@ -1,0 +1,7 @@
+cd http://localhost:3010/api/v1/auths/identity/callback
+--form
+email=admin@example.com
+password=12345678
+post
+rm -b email
+rm -b password

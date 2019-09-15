@@ -1,0 +1,9 @@
+rm *
+source authenticate
+--form
+cd http://localhost:3000/api/v1/exercises
+'api_v1_exercise[title]=Binäre Suche😄'
+api_v1_exercise[plugin]=java12_junit_5
+api_v1_exercise[exercise_hidden_test]@./resources/hidden_test.jar
+api_v1_exercise[exercise_stub]@./resources/stub.jar
+api_v1_exercise[exercise_test]@./resources/test.jar
